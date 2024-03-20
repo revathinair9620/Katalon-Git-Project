@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0D0642D1BF587DEB3FD2CC112549A46A",
+  "keywordClasses": [
+    {
+      "name": "com.test.adactinhotel.CustomFunctions",
+      "keywordMethods": [
+        {
+          "name": "printHello",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

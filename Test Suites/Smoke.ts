@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Adactin Hotel/Login Page Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>743514e6-72a9-49d7-9410-fcde06de9316</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e7dec39-e920-4069-9e98-96234c9e8dd9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>434e32d6-2221-440e-bc16-054b6d548724</guid>
@@ -38,6 +50,36 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Adactin Hotel/Book A Hotel Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>03e32613-39e5-48ea-b481-c52b1d88f8bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cd9b1247-e014-42cd-ac72-cfcedf896a55</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0140529f-981a-4afe-b382-6f9fc1130f87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1cdce5cd-da77-4267-9edc-0a698102a4de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aee8103b-8f7c-40b3-8b69-d0f42fecc01e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b2cfd74c-fdb9-4196-a249-cea7093c80dc</guid>

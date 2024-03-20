@@ -28,3 +28,5 @@ WebUI.callTestCase(findTestCase('Adactin Hotel/Book A Hotel Test'), [:], Failure
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Adactin.com - Hotel Booking Confirmation/td_Order No'), 
     0)
 
+WebUI.closeBrowser()
+

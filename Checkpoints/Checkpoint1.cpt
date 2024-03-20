@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint1</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\Sam\Desktop\adactinhotelTestData.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>userdetails</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2024-03-20T11:54:30.811+11:00</taken-date>
+   <column-names>
+      <column-name>firstname</column-name>
+      <column-name>lastname</column-name>
+      <column-name>address</column-name>
+      <column-name>creditcardno</column-name>
+      <column-name>cvv</column-name>
+      <column-name>checkindate</column-name>
+      <column-name>checkoutdate</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Revathi M",
+      "checked": true
+    },
+    {
+      "value": "Nair",
+      "checked": true
+    },
+    {
+      "value": "32-34 mons road",
+      "checked": true
+    },
+    {
+      "value": "1.23457E+15",
+      "checked": true
+    },
+    {
+      "value": "123",
+      "checked": true
+    },
+    {
+      "value": "12/2/24",
+      "checked": true
+    },
+    {
+      "value": "9/2/24",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
