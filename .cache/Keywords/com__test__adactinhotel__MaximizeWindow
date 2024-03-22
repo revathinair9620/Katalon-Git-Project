@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "ACF3DD5DDD8768A63718FF75AFE3CC73",
+  "keywordClasses": [
+    {
+      "name": "com.test.adactinhotel.MaximizeWindow",
+      "keywordMethods": [
+        {
+          "name": "maximizeBrowser",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

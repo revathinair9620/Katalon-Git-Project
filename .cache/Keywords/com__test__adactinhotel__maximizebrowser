@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "43EBFA044833A7E59B94CAFD07685846",
+  "keywordClasses": [
+    {
+      "name": "com.test.adactinhotel.maximizewindow",
+      "keywordMethods": [
+        {
+          "name": "maximizeBrowser",
+          "parameters": [
+            {
+              "name": "driver",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.openqa.selenium.WebDriver",
+                "unresolvedClassName": "WebDriver",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

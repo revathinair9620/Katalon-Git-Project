@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+CustomKeywords.'com.test.adactinhotel.MaximizeWindow.maximizeBrowser'()
+
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Hotel Reservation System/input_Username_username'), GlobalVariable.username)
