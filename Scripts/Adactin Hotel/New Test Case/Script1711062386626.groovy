@@ -17,10 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Adactin Hotel/Book A Hotel Test'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Adactin.com - Hotel Booking Confirmation/td_Order No'), 
-    0)
+WebUI.navigateToUrl('https://adactinhotelapp.com/HotelAppBuild2/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Hotel Reservation System/input_Username_username'), 'Revathinair')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Adactin.com - Hotel Reservation System/input_Password_password'), 
+    '+zzEF/OqGhUomxqOQxcZfg==')
+
+WebUI.click(findTestObject('Object Repository/Page_Adactin.com - Hotel Reservation System/input_Forgot Password_login'))
 
 WebUI.closeBrowser()
 

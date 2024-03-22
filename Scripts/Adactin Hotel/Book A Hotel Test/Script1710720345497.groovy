@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Adactin Hotel/Login Page Test'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Adactin Hotel/Search Hotel Test'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Adactin Hotel/Select Hotel Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Adactin.com - Book A Hotel/input__first_name'), findTestData("New Test Data").getValue(1, 1) )
+WebUI.setText(findTestObject('Page_Adactin.com - Book A Hotel/input__first_name'), findTestData('New Test Data').getValue(
+        1, 1))
 
-WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/input__last_name'), findTestData("New Test Data").getValue(2, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/input__last_name'), findTestData('New Test Data').getValue(
+        2, 1))
 
-WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/textarea__address'), findTestData("New Test Data").getValue(3, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/textarea__address'), findTestData('New Test Data').getValue(
+        3, 1))
 
-WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/input_Use 16 digit Dummy Data_cc_num'), findTestData("New Test Data").getValue(4, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/input_Use 16 digit Dummy Data_cc_num'), 
+    findTestData('New Test Data').getValue(4, 1))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/select_- Select Credit Card Type -         _b35779'), 
     'AMEX', true)
@@ -40,7 +40,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Adactin.com - B
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/select_- Select Year -                     _fa2652'), 
     '2028', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/input__cc_cvv'), findTestData("New Test Data").getValue(5, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/input__cc_cvv'), findTestData('New Test Data').getValue(
+        5, 1))
 
 WebUI.click(findTestObject('Object Repository/Page_Adactin.com - Book A Hotel/input__book_now'))
 

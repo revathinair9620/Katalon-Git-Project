@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Adactin Hotel/Login Page Test'), [:], FailureHandling.OPTIONAL)
-
 WebUI.callTestCase(findTestCase('Adactin Hotel/Search Hotel Test'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Page_Adactin.com - Select Hotel/input_Total Price (excl. GST)_radiobutton_0'))
